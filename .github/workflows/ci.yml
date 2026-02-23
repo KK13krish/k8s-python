@@ -40,7 +40,7 @@ jobs:
       - name: Checkout GitOps manifests repo
         uses: actions/checkout@v4
         with:
-          repository: krishh13kk/k8s-python-gitops
+          repository: KK13krish/k8s-python-gitops
           token: ${{ secrets.GITOPS_TOKEN }}
           path: gitops-repo
 
